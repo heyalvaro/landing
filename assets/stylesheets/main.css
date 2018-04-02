@@ -1,5 +1,6 @@
 #cover {
   min-height: 100%;
   min-height: 100vh;
-  background-color: yellow;
+
+  /* background-image: image("assets/images/hero-bg.jpg"); */
 }
