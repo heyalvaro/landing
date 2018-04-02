@@ -14,3 +14,17 @@
 .btn-outline-warning{
   color: white;
 }
+
+.btn-outline-dark{
+  color: #252a30;
+}
+
+#hire {
+  background-color: #FED766;
+  height: 50vh;
+}
+
+footer {
+  background-color: #252a30;
+  height: 30vh;
+}
