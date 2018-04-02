@@ -3,13 +3,14 @@
   height: 100vh;
   background-size: cover;
   background-color: #252a30;
+  background-blend-mode: exclusion;
 
 }
 
 #cover div {
-  color: black;
+  color: white;
 }
 
 .btn-outline-warning{
-  color: black;
+  color: white;
 }
