@@ -1,7 +1,15 @@
 #cover {
-
-
   background: url(../images/hero-bg.jpg);
   height: 100vh;
-  background-size: auto;
+  background-size: cover;
+  background-color: #252a30;
+
+}
+
+#cover div {
+  color: black;
+}
+
+.btn-outline-warning{
+  color: black;
 }
