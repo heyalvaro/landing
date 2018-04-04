@@ -25,6 +25,12 @@
   min-height: 400px;
 }
 
+.expertise-icon {
+  width: 140px;
+  height: 140px;
+  color: #da6400;
+}
+
 footer {
   background-color: #252a30;
   height: 30vh;
