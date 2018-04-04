@@ -22,9 +22,11 @@
 #hire {
   background-color: #FED766;
   height: 50vh;
+  min-height: 400px;
 }
 
 footer {
   background-color: #252a30;
   height: 30vh;
+  min-height: 200px;
 }
