@@ -46,7 +46,13 @@ footer {
 }
 
 .modal-content {
+  background-color: #222;
   height: auto;
   min-height: 100%;
   border-radius: 0;
+}
+
+.close {
+  color: white;
+  opacity: unset;
 }
