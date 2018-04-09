@@ -7,6 +7,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.9/css/all.css" integrity="sha384-5SOiIsAziJl6AWe0HWRKTXlfcSHKmYV4RBF18PPJ173Kzn7jzMyFuTtk8JA7QQG1" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
     <link rel="stylesheet" href="assets/stylesheets/main.css">
     <title>Hello, world!</title>
 
@@ -161,53 +162,59 @@
                   <div class="container text-white">
                     <div class="row">
                       <div class="col">
-                        H
+                        <i class="fab fa-adn fa-4x"></i>
                       </div>
                     </div>
-                    <div class="row">
-                      <div class="col">
-                        <p>Hello</p>
+                    <div class="row pt-3 justify-content-center">
+                      <div class="col-md-8">
+                        <p id="intro">Ok, just a few quick questions.</p>
                         <p>Darkness my old friend</p>
                       </div>
                     </div>
                   </div>
 
                   <div class="modal-body">
-                    <form>
-                      <div class="row justify-content-center">
-                        <div class="col-4">
-                          <div class="form-group">
-                            <input value="Name" type="text" class="form-control" id="recipient-name">
+                    <div class="row justify-content-center">
+                      <div class="col-md-8">
+                        <form>
+                          <div class="row justify-content-center">
+                            <div class="col-4">
+                              <div class="form-group">
+                                <input value="Name" type="text" class="form-control" id="recipient-name">
+                              </div>
+                            </div>
+                            <div class="col-4">
+                              <div class="form-group">
+                                <input value="Email address" type="text" class="form-control" id="recipient-email">
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <input value="Email address" type="text" class="form-control" id="recipient-email">
+                          <div class="row justify-content-center">
+                            <div class="col-4">
+                              <div class="form-group">
+                                <input value="Phone number" type="text" class="form-control" id="recipient-number">
+                              </div>
+                            </div>
+                            <div class="col-4">
+                              <div class="form-group">
+                                <input value="Website" type="text" class="form-control" id="recipient-website">
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                      </div>
-                      <div class="row justify-content-center">
-                        <div class="col-4">
-                          <div class="form-group">
-                            <input value="Phone number" type="text" class="form-control" id="recipient-number">
+                          <div class="row justify-content-center">
+                            <div class="col-8">
+                              <div class="form-group">
+                                <label for="message-text" class="col-form-label">Message:</label>
+                                <textarea class="form-control" id="message-text"></textarea>
+                              </div>
+                            </div>
                           </div>
-                        </div>
-                        <div class="col-4">
-                          <div class="form-group">
-                            <input value="Website" type="text" class="form-control" id="recipient-website">
-                          </div>
-                        </div>
-                      </div>
-                      <div class="row justify-content-center">
-                        <div class="col-8">
-                          <div class="form-group">
-                            <label for="message-text" class="col-form-label">Message:</label>
-                            <textarea class="form-control" id="message-text"></textarea>
-                          </div>
-                        </div>
-                      </div>
-                  </div>
 
+                        </form>
+
+                      </div>
+
+                    </div>
                   <div class="modal-footer justify-content-center">
                     <button type="button" class="btn btn-outline-warning">Send message</button>
                   </div>

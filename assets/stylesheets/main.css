@@ -38,6 +38,10 @@ footer {
   min-height: 200px;
 }
 
+.modal-header{
+  border-bottom: none;
+}
+
 .modal-dialog {
   max-width: none;
   width: 100%;
@@ -56,4 +60,12 @@ footer {
 .close {
   color: white;
   opacity: unset;
+}
+
+#intro{
+  font-size: 2.2rem;
+  line-height: 1.4;
+  font-weight: 900;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
 }
