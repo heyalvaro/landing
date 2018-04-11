@@ -51,7 +51,7 @@ footer {
 }
 
 .modal-content {
-  background-color: #222;
+  background-color: #252a30;
   height: auto;
   min-height: 100%;
   border-radius: 0;
@@ -70,21 +70,26 @@ footer {
   background: rgba(0,0,0,0.3) url(../images/cd-icon-close.svg) no-repeat center center;
 }
 
-/* .close {
-  color: white;
-  opacity: unset;
-} */
-
 #intro {
   font-size: 2.2rem;
   line-height: 1.4;
   text-align: center;
 }
 
-.form-control{
+.form-control {
   color: #93a4aa;
-  background-color: #222;
+  background-color: #252a30;
   border: 2px solid #fff;
+}
+
+.form-control :focus {
+  color: #93a4aa;
+  background-color: #252a30;
+  border: 2px solid #fff;
+}
+
+.modal-footer {
+  border-top: none;
 }
 
 h1, h2, h3, h4, h5, h6 {
