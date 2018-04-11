@@ -81,6 +81,12 @@ footer {
   text-align: center;
 }
 
+.form-control{
+  color: #93a4aa;
+  background-color: #222;
+  border: 2px solid #fff;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-weight: 900;
   font-family: 'Montserrat', sans-serif;
