@@ -82,7 +82,7 @@ footer {
   border: 2px solid #fff;
 }
 
-.form-control :focus {
+.form-control:focus {
   color: #93a4aa;
   background-color: #252a30;
   border: 2px solid #fff;
