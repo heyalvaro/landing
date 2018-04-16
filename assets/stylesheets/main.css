@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #cover {
   background: url(../images/coding.jpg);
   height: 100vh;
@@ -94,6 +98,33 @@ footer {
 
 .modal-footer {
   border-top: none;
+}
+
+.modal-footer button{
+  text-transform: uppercase;
+  border: 2px solid #FED766;
+  padding: 0.6rem 3rem;
+  font-size: 0.8rem;
+  -webkit-transition: all .3s ease-in-out; time;
+  -moz-transition: all .3s ease-in-out; time;
+  -ms-transition: all .3s ease-in-out; time;
+  -o-transition: all .3s ease-in-out; time;
+  transition: all .3s ease-in-out; time;
+  font-weight:900;
+  letter-spacing: 0;
+
+}
+
+.modal-footer button:focus{
+  background: #FED766;
+}
+
+.modal-footer p{
+  color: #93a4aa;
+}
+
+#required {
+  display: block;
 }
 
 h1, h2, h3, h4, h5, h6 {
