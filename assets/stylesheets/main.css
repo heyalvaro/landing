@@ -57,6 +57,10 @@ footer {
   border-radius: 0;
 }
 
+.modal-content textarea {
+  min-height: 176px;
+}
+
 .cd-modal-close {
   z-index: 1;
   width: 50px;
