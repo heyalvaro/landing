@@ -19,12 +19,12 @@ body {
   color: white;
 }
 
-.btn-outline-warning{
+.btn-outline-warning {
   color: white;
   border-radius: 50px;
 }
 
-.btn-outline-dark{
+.btn-outline-dark {
   color: #252a30;
 }
 
@@ -46,7 +46,7 @@ footer {
   min-height: 200px;
 }
 
-.modal-header{
+.modal-header {
   border-bottom: none;
 }
 
@@ -104,10 +104,10 @@ footer {
   border-top: none;
 }
 
-.modal-footer button{
+.modal-footer button {
   text-transform: uppercase;
   border: 2px solid #FED766;
-  padding: 0.6rem 3rem;
+  /* padding: 0.6rem 3rem; */
   font-size: 0.8rem;
   -webkit-transition: all .3s ease-in-out; time;
   -moz-transition: all .3s ease-in-out; time;
@@ -119,11 +119,15 @@ footer {
 
 }
 
-.modal-footer button:focus{
+.modal-footer button:focus {
   background: #FED766;
 }
 
-.modal-footer p{
+.modal-footer button:hover {
+  padding: 0.375rem 1.15rem;
+}
+
+.modal-footer p {
   color: #93a4aa;
 }
 
