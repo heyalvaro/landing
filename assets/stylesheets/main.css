@@ -6,6 +6,10 @@ body {
   max-width: 1140px;
 }
 
+.statement{
+  color: #93a4aa;
+}
+
 #cover {
   background: url(../images/coding.jpg);
   height: 100vh;
