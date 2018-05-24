@@ -1,0 +1,6 @@
+/* Cover */
+.cover .container-fluid {
+    height: 100vh;
+    background-image: url("../images/cover.jpg");
+    background-size: cover;
+}
