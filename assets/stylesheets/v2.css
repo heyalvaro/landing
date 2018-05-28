@@ -1,3 +1,8 @@
+/* Globals */
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 /* Cover */
 .cover .background{
     position: absolute;
