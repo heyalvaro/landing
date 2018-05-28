@@ -1,6 +1,20 @@
 /* Cover */
-.cover .container-fluid {
+.cover .background{
+    position: absolute;
+    top: 0;
     height: 100vh;
     background-image: url("../images/cover.jpg");
     background-size: cover;
+}
+
+.filter {
+    background-color: rgba(0,0,0,0.5);
+}
+
+.cover .main {
+    height: 100vh;
+}
+
+.cover-column {
+    color: white;
 }
