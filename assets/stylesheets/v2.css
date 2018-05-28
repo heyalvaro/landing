@@ -18,3 +18,16 @@
 .cover-column {
     color: rgb(229,221,203);
 }
+
+.square {
+    width: 5%;
+    background-image: url("../images/profile.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
