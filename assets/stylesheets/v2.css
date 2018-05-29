@@ -86,3 +86,8 @@ h1, h2, h3 {
     border: none;
 }
 
+.testimonial {
+    border-top: 1px solid #A7C5BD;
+    border-bottom: 1px solid #A7C5BD;
+}
+
