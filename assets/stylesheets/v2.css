@@ -3,6 +3,10 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+h1, h2 {
+    font-weight: 700;
+}
+
 .square {
     width: 5%;
     background-image: url("../images/profile.jpg");
