@@ -3,6 +3,19 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+.square {
+    width: 5%;
+    background-image: url("../images/profile.jpg");
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.square:after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+}
+
 /* Cover */
 .cover .background{
     position: absolute;
@@ -24,15 +37,17 @@ body {
     color: rgb(229,221,203);
 }
 
-.square {
-    width: 5%;
-    background-image: url("../images/profile.jpg");
-    background-size: cover;
-    border-radius: 50%;
+/* Me */
+.me {
+    /*background-color: #E5DDCB;*/
 }
 
-.square:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
+.me h2 {
+    color: #524656;
 }
+
+
+.me-icon {
+    color: #EB7B59
+}
+
