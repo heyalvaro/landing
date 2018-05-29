@@ -34,6 +34,7 @@ h1, h2, h3 {
 }
 
 .type-a:focus, .type-a:hover{
+    cursor: pointer;
     transition: all 0.5s ease;
     background-color: #524656;
     color: #EB7B59;
