@@ -19,11 +19,11 @@ footer {
 
 .type-b {
     border: 2px solid #524656;
-    color: #524656;
 }
 
 
 .type-a, .type-b {
+    color: #524656;
     cursor: pointer;
     transition: all 0.5s ease;
     background-color: transparent;
@@ -36,6 +36,10 @@ footer {
     padding-top: 0.5rem;
     padding-bottom: 0.5rem;
 
+}
+
+.type-a:hover, .type-b:hover {
+    text-decoration: none;
 }
 
 .type-a:focus, .type-a:hover, .type-b:focus, .type-b:hover {
