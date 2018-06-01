@@ -12,24 +12,6 @@ footer {
     color: #E5DDCB;
 }
 
-.circle-small {
-    width: 2%;
-}
-
-.circle-medium {
-    width: 5%;
-}
-
-.circle-small, .circle-medium {
-    background-size: cover;
-    border-radius: 50%;
-}
-
-.circle-small:after, .circle-medium:after {
-    content: "";
-    display: block;
-    padding-bottom: 100%;
-}
 
 .type-a {
     border: 2px solid #EB7B59;
@@ -110,6 +92,11 @@ footer {
 .testimonial {
     border-top: 1px solid #A7C5BD;
     border-bottom: 1px solid #A7C5BD;
+}
+
+.testimonial-avatar {
+    height: 70px;
+    width: 70px;
 }
 
 /* Together */
