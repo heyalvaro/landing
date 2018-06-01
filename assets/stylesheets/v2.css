@@ -12,14 +12,20 @@ footer {
     color: #E5DDCB;
 }
 
-.square {
+.circle-small {
+    width: 2%;
+}
+
+.circle-medium {
     width: 5%;
-    background-image: url("../images/profile.jpg");
+}
+
+.circle-small, .circle-medium {
     background-size: cover;
     border-radius: 50%;
 }
 
-.square:after {
+.circle-small:after, .circle-medium:after {
     content: "";
     display: block;
     padding-bottom: 100%;
@@ -109,4 +115,17 @@ footer {
 /* Together */
 .together {
     background-color: #EB7B59;
+}
+
+/* Footer */
+.social-icon {
+    background-color: #362E38;
+    border-radius: 50px;
+    width: 36px;
+    height: 36px;
+}
+
+.social-icon:after {
+    display:block;
+    padding-bottom: 100%;
 }
