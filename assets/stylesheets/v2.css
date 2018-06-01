@@ -129,3 +129,7 @@ footer {
     display:block;
     padding-bottom: 100%;
 }
+
+.social-icon div a {
+    color: #E5DDCB;
+}
